@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #1c1c1c;
+  color: #ffffff;
+  font-family: karla;
+  max-width: 678px;
+  max-height: 678px;
+  margin: 0 auto;
+}
+.container {
+  background: #1f2937;
+  max-width: 550px;
+  max-height: 550px;
+  margin: 64px auto;
+  padding: 52px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+h1 {
+  width: 205px;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+span {
+  color: #10b981;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin: 5px 0 0 0;
+}
+.generate-password-btn {
+  width: Hug (191px) px;
+  height: Hug (42px) px;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+  border-radius: 6px;
+  margin: 50px 0 0 0;
+  border: none;
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+hr {
+  max-width: 446px;
+  border: 1px solid #2f3e53;
+  margin: 35px 0 35px 0;
+}
+.outputBtn {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.inputbtn {
+  align-self: center;
+  width: 210px;
+  height: 39px;
+  border-radius: 6px;
+  background-color: #273549;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
